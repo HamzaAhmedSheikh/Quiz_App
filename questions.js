@@ -11,7 +11,7 @@ var questions = [{
 	"option2": 'Position',
 	"option3" :'Element',
     "option4": 'Location',
-    "asnwer": 1
+    "answer": 1
 },{
     "question": 'What is the result of the following code snippet? window.location === document.location',
 	"option1": 'False',

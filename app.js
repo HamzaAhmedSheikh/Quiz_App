@@ -1,7 +1,6 @@
 console.log('Are you read for quiz?');
 
 
-
 var currentQuestion = 0;
 var score = 0;
 var totalQuestions = questions.length;
@@ -19,7 +18,7 @@ var resultCont = document.getElementById("result");
 
  function loadQuestion(questionIndex) {
      var q = questions[questionIndex];
-     questionEl.textContent = (questionIndex + 1) + '. ' + q.question;
+     questionEl.textContent = (questionIndex + 1) + '. ' + q.question;     
      opt1.textContent = q.option1;
      opt2.textContent = q.option2;
      opt3.textContent = q.option3;
@@ -28,27 +27,31 @@ var resultCont = document.getElementById("result");
 
  function loadNextQuestion() {
      var selectedOption = document.querySelector('input[type=radio]:checked')
-
+         console.log(selectedOption);
       if(!selectedOption) {
           alert("Please select your answer")
            return ;
       }
 
       var answer = selectedOption.value
+       
+       console.log(questions[currentQuestion].answer);
        console.log(answer);
+
        if(questions[currentQuestion].answer == answer) {
-           score += 10;
-       }
-
-       console.log(answer);
-
+           
+          score += 10;
+          console.log(score + ' 00000000');
+       }     
+        
          selectedOption.checked = false;
          currentQuestion++;
          
        if(currentQuestion == totalQuestions - 1) {
            nextButton.textContent = 'Finish'
        }  
-           console.log(score);
+           
+           
        if(currentQuestion == totalQuestions) {
            container.style.display = 'none';
            resultCont.style.display = '';
