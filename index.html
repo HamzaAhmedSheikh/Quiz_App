@@ -8,6 +8,35 @@
     <title> Quiz App </title>
 </head>
 <body>
-    <h1> Quiz App </h1> 
+    <div id="quizContainer" class="container">
+        <div class="title"> The Quiz </div>
+        <div id="question" class="question"></div>
+        <label for="optionOne">
+            <input type="radio" name="option" id="optionOne" value="1" />
+            <span id="opt1"> ASDF </span>
+        </label>
+
+        <label for="optionTwo">
+            <input type="radio" name="option" id="optionTwo" value="1" />
+            <span id="opt2"> ASDF </span>
+        </label>
+
+        <label for="optionThree">
+            <input type="radio" name="option" id="optionThree" value="1" />
+            <span id="opt3"> ASDF </span>
+        </label>
+
+        <label for="optionFour">
+            <input type="radio" name="option" id="optionFour" value="1" />
+            <span id="opt4"> ASDF </span>
+        </label>
+
+        <button id="nextButton"
+                class="next-btn"
+                onclick="loadNextQuestion();"> Next Question 
+        </button>
+    </div>    
+
+    <!-- <div id="result" class="container"></div> -->
 </body>
 </html>
