@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto Slab', serif;
-    background: #6cf;
+    background: #6cf;    
 }
 
 .container {
@@ -76,3 +76,23 @@ body {
     background: #08038C;
     color: #fff;
 }
+
+/* @media (min-width: 576px) and (max-width: 767.98px) {
+    .container {
+        width: 350px;    
+        padding: 10px;
+    } 
+
+    .option {
+        width: 180px;
+        display: inline-block;
+        padding: 10px 0 10px 15px;
+        vertical-align: middle;
+        background: rgba(255, 255, 255, 0.5);
+        margin: 10px 0 10px 10px;
+       color: #000000;
+       border-radius: 20px;
+    }
+
+   
+} */
