@@ -1,5 +1,3 @@
-console.log('Are you read for quiz?');
-
 var questions = [{
     "question": 'Which function among the following lets to register a function to be invoked repeatedly after a certain time?',
 	"option1": 'setTimeout()',
@@ -15,9 +13,7 @@ var questions = [{
     "option4": 'Location',
     "asnwer": 1
 },{
-
-},{
-    "question": 'What is the result of the following code snippet? <br> <pre> window.location === document.location </pre>',
+    "question": 'What is the result of the following code snippet? window.location === document.location',
 	"option1": 'False',
 	"option2": 'True',
 	"option3": '1',
@@ -32,24 +28,24 @@ var questions = [{
     "answer": 3,
 }, {
     "question": 'Inside which HTML element do we put the JavaScript?',
-	"option1": '&lt;javascript&gt;',
-	"option2": '&lt;script&gt;',
-	"option3": '&lt;scripting&gt;',
-    "option4": '&lt;js&gt;',
+	"option1": '<javascript>',
+	"option2": '<script>',
+	"option3": '<scripting>',
+    "option4": '<js>',
     "answer": 2,
 }, {
-    "question": 'What is the correct JavaScript syntax to change the content of the HTML element below? <br> <pre>&lt;p id="demo"&gtThis is made by Owais.&lt;/p&gt</pre>',
-	"option1": 'document.getElementByName("p").innerHTML = "Hello World!";',
-	"option2": '#demo.innerHTML = "Hello World!";',
-	"option3": 'document.getElementById("demo").innerHTML = "Hello World!";',
-    "option4": 'document.getElement("p").innerHTML = "Hello World!";',    
+    "question": 'Which of the following is the most powerful type of computer ?',
+	"option1": 'Super-micro',
+	"option2": 'Super conductor',
+	"option3": 'Super computer',
+    "option4": 'Megaframe',    
     "answer": 3,
 },{
     "question": 'What is the correct syntax for referring to an external script called "script.js"?',
-	"option1": '&lt;script src="script.js"&gt;',
-	"option2": '&lt;script href="script.js"&gt;',
-	"option3": '&lt;script name="script.js"&gt;',
-    "option4": '&lt;script link="script.js"&gt;',
+	"option1": '<script src="script.js">',
+	"option2": '<script href="script.js">',
+	"option3": '<script href="script.js">',
+    "option4": '<script link="script.js">',
     "answer": 1,
 },{
     "question": 'How do you write "Hello World" in an alert box?',
@@ -73,6 +69,3 @@ var questions = [{
     "option4": 'None of the mentioned',
     "answer": 1,
 }]
-
-
-

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet"  href="./style.css" />
+    <title> Quiz App </title>
+</head>
+<body>
+    <div id="quizContainer" class="container">
+        <div class="title"> The Quiz </div>
+        <div id="question" class="question"></div>
+        <label for="optionOne" class="option">
+            <input type="radio" name="option" id="optionOne" value="1" />
+            <span id="opt1"></span>
+        </label>
+
+        <label for="optionTwo" class="option">
+            <input type="radio" name="option" id="optionTwo" value="1" />
+            <span id="opt2"></span>
+        </label>
+
+        <label for="optionThree" class="option">
+            <input type="radio" name="option" id="optionThree" value="1" />
+            <span id="opt3"></span>
+        </label>
+
+        <label for="optionFour" class="option">
+            <input type="radio" name="option" id="optionFour" value="1" />
+            <span id="opt4"></span>
+        </label>
+
+        <button id="nextButton"
+                class="next-btn"
+                onclick="loadNextQuestion();"> Next Question 
+        </button>
+    </div>    
+
+    <div id="result" class="container result" style="display: none;"></div>
+     <script src="./questions.js"></script> 
+    <script src="app.js"></script>
+</body>
+</html>

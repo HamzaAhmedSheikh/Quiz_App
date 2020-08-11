@@ -16,10 +16,6 @@ body {
     box-shadow: 0 0 8px 3px #fff;
 }
 
-#result {
-    display: none;
-}
-
 .title {
     padding-top: 20px;
     text-align: center;

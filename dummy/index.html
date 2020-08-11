@@ -11,25 +11,25 @@
 <body>
     <div id="quizContainer" class="container">
         <div class="title"> The Quiz </div>
-        <div id="question" class="question"> How do you create a function in JavaScript? </div>
+        <div id="question" class="question"></div>
         <label for="optionOne" class="option">
             <input type="radio" name="option" id="optionOne" value="1" />
-            <span id="opt1"> function = myFunction()' </span>
+            <span id="opt1"></span>
         </label>
 
         <label for="optionTwo" class="option">
             <input type="radio" name="option" id="optionTwo" value="1" />
-            <span id="opt2"> ASDF </span>
+            <span id="opt2"></span>
         </label>
 
         <label for="optionThree" class="option">
             <input type="radio" name="option" id="optionThree" value="1" />
-            <span id="opt3"> ASDF </span>
+            <span id="opt3"></span>
         </label>
 
         <label for="optionFour" class="option">
             <input type="radio" name="option" id="optionFour" value="1" />
-            <span id="opt4"> ASDF </span>
+            <span id="opt4"></span>
         </label>
 
         <button id="nextButton"
@@ -38,8 +38,8 @@
         </button>
     </div>    
 
-    <div id="result" class="container result"></div>
-
+    <div id="result" class="container result" style="display: none;"></div>
+     <script src="./questions.js"></script> 
     <script src="app.js"></script>
 </body>
 </html>
