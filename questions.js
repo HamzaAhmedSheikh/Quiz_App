@@ -1,10 +1,10 @@
 var questions = [{
-    "question": 'Which function among the following lets to register a function to be invoked repeatedly after a certain time?',
-	"option1": 'setTimeout()',
-	"option2":'setTotaltime()',
-	"option3":'setInterval()',
-	"option4":'none of the mentioned',
-	"answer": 3,    
+    "question": 'The first mechanical computer designed by Charles Babbage was called?',
+	"option1": 'Abacus',
+	"option2":' Analytical Engine',
+	"option3":'Calculator',
+	"option4":' Processor',
+	"answer": 2,    
 },{
     "question": 'To which object does the location property belong?',
 	"option1": 'Window',
