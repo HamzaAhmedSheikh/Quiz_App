@@ -4,8 +4,8 @@ body {
 }
 
 .container {
-    height: 330px;
-    width: 1000px;
+    /* height: 330px;
+    width: 1000px; */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -50,15 +50,16 @@ body {
 }
 
 .next-btn {
-    border: none;
-    outline: none;
+    border: none !important;
+    outline: none !important;
     background: green;
-    width: 100px;
+    width: 16%;
     height: 35px;
     border-radius: 20px;
     cursor: pointer;
     float: right;
     margin: 10px;
+    color: whitesmoke;
 }
 
 .next-btn:hover {
@@ -70,6 +71,7 @@ body {
     height: 100px;
     text-align: center;
     font-size: 75px;
+    padding: 0px !important;
 } 
 
 .option input:checked .option {
@@ -77,22 +79,16 @@ body {
     color: #fff;
 }
 
-/* @media (min-width: 576px) and (max-width: 767.98px) {
-    .container {
-        width: 350px;    
-        padding: 10px;
-    } 
-
+@media (max-width: 575.98px) {
     .option {
-        width: 180px;
+        width: 280px !important;
         display: inline-block;
         padding: 10px 0 10px 15px;
         vertical-align: middle;
         background: rgba(255, 255, 255, 0.5);
         margin: 10px 0 10px 10px;
-       color: #000000;
-       border-radius: 20px;
-    }
-
+        color: #000000;
+        border-radius: 20px;
+    } 
    
-} */
+}
