@@ -90,5 +90,15 @@ body {
         color: #000000;
         border-radius: 20px;
     } 
+
+    .question {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .result {
+        font-size: 40px;
+        height: 66px;
+    }
    
 }
